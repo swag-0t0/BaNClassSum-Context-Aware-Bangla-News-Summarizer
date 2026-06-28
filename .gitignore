@@ -1,0 +1,65 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environment folders
+venv/
+.env/
+.env.*
+.venv/
+
+# Python environment
+pip-wheel-metadata/
+
+# PyCharm
+.idea/
+
+# VS Code workspace settings
+.vscode/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Dataset and model artifacts
+Data/
+Models/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Ignore output from evaluations / experiments
+evaluation/
+
+# Ignore local notebook outputs
+*.ipynb_checkpoints
+
+# Ignore pip cache
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ignore coverage reports
+htmlcov/
+.coverage
+.coverage.*
+
+# Ignore local Python packaging artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Ignore local environment files
+*.env
+
+# Ignore sensitive config files
+config.json
+credentials.json
