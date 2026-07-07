@@ -82,3 +82,11 @@ The dataset is organized under `Data/`.
 ## License
 
 Add a license file or license section here if needed.
+
+## Assets
+
+The repository includes image assets used in the README and documentation. Replace these files with updated screenshots as needed.
+
+- [assets/UI.png](assets/UI.png) — main UI screenshot shown at the top of this README
+- [assets/flowchart.png](assets/flowchart.png) — pipeline flowchart or architecture diagram
+
