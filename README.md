@@ -1,16 +1,18 @@
 # BaNClassSum: Context-Aware Bangla News Summarizer
 
+![UI screenshot](assets/UI.png)
+
 A research repository for Bangla news category-aware summarization. The project combines fine-tuned BERT classification with a BanglaT5 summarization model to generate summaries conditioned on predicted news categories.
 
 ## Repository Structure
 
 - `Data/`
-  - `raw/` — raw news dataset files, including `ittefaq.jsonl`
-  - `extractive_summary/` — extracted summaries and related dataset artifacts such as `all_summary.jsonl`
-- `Models/` — trained model artifacts and checkpoints
-- `Notebooks/` — exploratory notebooks for training, fine-tuning, and extractive summarization experiments
-- `Pipeline/` — reusable pipeline implementation in `unified_pipeline.py`
-- `evaluation/` — evaluation utilities and results data
+  - `raw/` ï¿½ raw news dataset files, including `ittefaq.jsonl`
+  - `extractive_summary/` ï¿½ extracted summaries and related dataset artifacts such as `all_summary.jsonl`
+- `Models/` ï¿½ trained model artifacts and checkpoints
+- `Notebooks/` ï¿½ exploratory notebooks for training, fine-tuning, and extractive summarization experiments
+- `Pipeline/` ï¿½ reusable pipeline implementation in `unified_pipeline.py`
+- `evaluation/` ï¿½ evaluation utilities and results data
 
 ## Requirements
 
@@ -52,9 +54,9 @@ print(result)
 
 The returned result contains:
 
-- `category` — predicted news category
-- `confidence` — classifier confidence score
-- `summary` — generated Bangla summary
+- `category` ï¿½ predicted news category
+- `confidence` ï¿½ classifier confidence score
+- `summary` ï¿½ generated Bangla summary
 
 ## Notes
 
